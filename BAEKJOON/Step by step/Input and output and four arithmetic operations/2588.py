@@ -1,0 +1,7 @@
+a = input()
+b = input()
+A = int(a)
+print(A * int(b[2]))
+print(A * int(b[1]))
+print(A * int(b[0]))
+print(A * int(b))

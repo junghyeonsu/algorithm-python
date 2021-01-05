@@ -1,0 +1,8 @@
+list = input().split(' ')
+a = int(list[0])
+b = int(list[1])
+c = int(list[2])
+print((a+b)%c)
+print(((a%c)+(b%c))%c)
+print((a*b)%c)
+print(((a%c)*(b%c))%c)
